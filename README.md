@@ -21,7 +21,7 @@ For <b>linux/Unix </b> and <b>macOS </b>
 <pre>
         tar -zxvf  BamDeal-XXX.tar.gz
         cd BamDeal-XXX;
-        ./configure;        
+        chmod 755  configure;      ./configure     
 	make;                  
         mv BamDeal bin/;   ./bin/BamDeal 
 </pre>
